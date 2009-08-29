@@ -13,7 +13,7 @@
 #import "RMMarker.h"
 #import "RMMarkerManager.h"
 #import "RMTileLoader.h"
-#import "RMOpenStreetMapSource.h"
+#import "RMOpenStreetMapsSource.h"
 #import "RMTileImageSet.h"
 #import "CampTableCell.h"
 

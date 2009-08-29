@@ -56,7 +56,6 @@
 		57B84A660F24339600CA38AA /* THCalendarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B84A5E0F24339600CA38AA /* THCalendarInfo.m */; };
 		57BFE1DE0FC92A6D0049C315 /* ArtInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BFE1DC0FC92A6D0049C315 /* ArtInstall.m */; };
 		57BFE23F0FC933D00049C315 /* ArtInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BFE23D0FC933D00049C315 /* ArtInfoViewController.m */; };
-		57BFE2C30FC93CE70049C315 /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BFE2C00FC93CB00049C315 /* libMapView.a */; };
 		57BFE2ED0FC94E4F0049C315 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BFE2EB0FC94E4F0049C315 /* MessageTableViewController.m */; };
 		57BFE3660FC962F10049C315 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BFE3640FC962F10049C315 /* NewsViewController.m */; };
 		57BFE3AC0FC965BA0049C315 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BFE3AA0FC965BA0049C315 /* SyncViewController.m */; };
@@ -98,6 +97,7 @@
 		57CFBC491046F7CC00651FA3 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CFBC261046F7CC00651FA3 /* tweet.png */; };
 		57CFBC4A1046F7CC00651FA3 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CFBC271046F7CC00651FA3 /* inbox.png */; };
 		57CFBC4B1046F7CC00651FA3 /* map_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CFBC281046F7CC00651FA3 /* map_black.png */; };
+		57D74CA41049089900A8E17F /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D74C9F1049088B00A8E17F /* libMapView.a */; };
 		57EA42E70F2BFEAE009A8678 /* ArtTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA42E60F2BFEAE009A8678 /* ArtTableViewController.m */; };
 		57EA44550F2D2BF0009A8678 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA44540F2D2BF0009A8678 /* SettingsTableViewController.m */; };
 		57EA44580F2D2BFE009A8678 /* PeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA44570F2D2BFE009A8678 /* PeopleTableViewController.m */; };
@@ -128,26 +128,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57BFE2BF0FC93CB00049C315 /* PBXContainerItemProxy */ = {
+		57D74C9E1049088B00A8E17F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B8C974590E8A19B2007D16AD;
+			remoteGlobalIDString = B8C974590E8A19B2007D16AD /* libMapView.a */;
 			remoteInfo = MapView;
 		};
-		57BFE2C10FC93CB00049C315 /* PBXContainerItemProxy */ = {
+		57D74CA01049088B00A8E17F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 2BF3078F0F8AC5C0007014EE;
+			remoteGlobalIDString = 2BF3078F0F8AC5C0007014EE /* RM Unit Tests.app */;
 			remoteInfo = "Unit Tests";
-		};
-		57BFE2C50FC93D110049C315 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
-			remoteInfo = MapView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -242,7 +235,7 @@
 		57BFE1DD0FC92A6D0049C315 /* ArtInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtInstall.h; sourceTree = "<group>"; };
 		57BFE23D0FC933D00049C315 /* ArtInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtInfoViewController.m; sourceTree = "<group>"; };
 		57BFE23E0FC933D00049C315 /* ArtInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtInfoViewController.h; sourceTree = "<group>"; };
-		57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "../../../../../usr/src/route-me/MapView/MapView.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "../route-me-0.5/MapView/MapView.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		57BFE2EB0FC94E4F0049C315 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
 		57BFE2EC0FC94E4F0049C315 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
 		57BFE3640FC962F10049C315 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = UserInterface/NewsViewController.m; sourceTree = SOURCE_ROOT; };
@@ -359,7 +352,7 @@
 				574484310F1AF1AE00C67794 /* libsqlite3.0.dylib in Frameworks */,
 				574484350F1AF1B900C67794 /* CoreLocation.framework in Frameworks */,
 				57101DD00F283EC500812A41 /* Security.framework in Frameworks */,
-				57BFE2C30FC93CE70049C315 /* libMapView.a in Frameworks */,
+				57D74CA41049089900A8E17F /* libMapView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,11 +567,11 @@
 			path = CalendarControl;
 			sourceTree = "<group>";
 		};
-		57BFE2B90FC93CB00049C315 /* Products */ = {
+		57D74C981049088B00A8E17F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57BFE2C00FC93CB00049C315 /* libMapView.a */,
-				57BFE2C20FC93CB00049C315 /* RM Unit Tests.app */,
+				57D74C9F1049088B00A8E17F /* libMapView.a */,
+				57D74CA11049088B00A8E17F /* RM Unit Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -717,7 +710,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				57BFE2C60FC93D110049C315 /* PBXTargetDependency */,
 			);
 			name = iBurn;
 			productName = iBurn;
@@ -736,7 +728,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 57BFE2B90FC93CB00049C315 /* Products */;
+					ProductGroup = 57D74C981049088B00A8E17F /* Products */;
 					ProjectRef = 57BFE2AF0FC93CB00049C315 /* MapView.xcodeproj */;
 				},
 			);
@@ -748,18 +740,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		57BFE2C00FC93CB00049C315 /* libMapView.a */ = {
+		57D74C9F1049088B00A8E17F /* libMapView.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMapView.a;
-			remoteRef = 57BFE2BF0FC93CB00049C315 /* PBXContainerItemProxy */;
+			remoteRef = 57D74C9E1049088B00A8E17F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		57BFE2C20FC93CB00049C315 /* RM Unit Tests.app */ = {
+		57D74CA11049088B00A8E17F /* RM Unit Tests.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "RM Unit Tests.app";
-			remoteRef = 57BFE2C10FC93CB00049C315 /* PBXContainerItemProxy */;
+			remoteRef = 57D74CA01049088B00A8E17F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -894,14 +886,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		57BFE2C60FC93D110049C315 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MapView;
-			targetProxy = 57BFE2C50FC93D110049C315 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -909,8 +893,8 @@
 				ADDITIONAL_SDKS = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey Johnson (7786UC3VYC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey Johnson (7786UC3VYC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -920,13 +904,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iBurn_Prefix.pch;
-				HEADER_SEARCH_PATHS = "/usr/src/route-me/**";
+				HEADER_SEARCH_PATHS = "../route-me/**";
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = "/usr/src/route-me//**";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = iBurn;
-				PROVISIONING_PROFILE = "9258E91C-42CC-4689-A639-C32B270CB4F0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9258E91C-42CC-4689-A639-C32B270CB4F0";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
